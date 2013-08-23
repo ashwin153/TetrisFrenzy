@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashwin.tetris.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+<uses-permission android:name="android.permission.INTERNET" />  
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait" 
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        
+        <activity android:name="com.ashwin.tetris.android.activities.MenuActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      
+        <activity android:name="com.ashwin.tetris.android.activities.OfflineTetrisActivity"
+            	  android:label="@string/info"/>
+        <activity android:name="com.ashwin.tetris.android.activities.LoginActivity"
+            	  android:label="@string/tetris"/>
+        <activity android:name="com.ashwin.tetris.android.activities.InfoActivity"
+            	  android:label="@string/login"/>
+        <activity android:name="com.ashwin.tetris.android.activities.OnlineTetrisActivity"
+            	  android:label="@string/tetris"/>
+        <service  android:name="com.ashwin.tetris.android.services.ServerConnectionService"/>
+        
+        <activity
+            android:name="com.millennialmedia.android.MMActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name="com.millennialmedia.android.VideoPlayer"
+            android:configChanges="keyboardHidden|orientation|keyboard" >
+        </activity>
+        
+    </application>
+
+</manifest>

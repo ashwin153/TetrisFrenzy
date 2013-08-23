@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/LoginActivity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+    
+	    <TextView android:id="@+id/LoginActivity_logo1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tetris"
+	        style="@style/DefaultText.XLarge"/>
+	    
+	    <View
+	        android:layout_width="5dp"
+	        android:layout_height="1dp" />
+	    
+	    <TextView android:id="@+id/LoginActivity_logo2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/orange"
+	        android:text="@string/frenzy"
+	        style="@style/DefaultText.XLarge"/>
+	    
+	</LinearLayout>
+	
+	<EditText android:id="@+id/LoginActivity_username"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="text"
+	    android:textColor="@color/black"
+	    android:textColorHint="@color/black"
+	    android:hint="@string/default_username"/>
+	
+	<EditText android:id="@+id/LoginActivity_password"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textWebPassword"
+	    android:hint="@string/default_password"
+	    android:textColor="@color/black"
+	    android:textColorHint="@color/black"
+	    style="@style/DefaultText.Medium"/>
+	
+	<Button android:id="@+id/LoginActivity_login"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/login"
+	    android:background="@drawable/button_menu_selector"
+	    android:textColor="@drawable/text_color_selector"
+	    android:padding="7dp"
+	    style="@style/DefaultText.Medium"
+	    android:onClick="onLogin"/>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <CheckBox android:id="@+id/LoginActivity_checkBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="5dp"/>
+	    
+	    <TextView android:id="@+id/LoginActivity_rememberMe"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/remember_me"
+	        style="@style/DefaultText.Medium"/>
+	</LinearLayout>
+
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"/>
+	
+	<TextView android:id="@+id/LoginActivity_createAccountInfo"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="@string/create_account_info"
+	    style="@style/DefaultText.Large"/>
+		
+	<Button android:id="@+id/LoginActivity_createAccount"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/create_account"
+	    android:background="@drawable/button_menu_selector"
+	    android:textColor="@drawable/text_color_selector"
+	    android:padding="7dp"
+	    style="@style/DefaultText.Medium"
+	    android:onClick="onCreateAccount"/>
+	
+</LinearLayout>

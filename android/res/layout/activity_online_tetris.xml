@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tetris="http://schemas.android.com/apk/res-auto"
+    
+    android:id="@+id/OnlineTetrisActivity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    android:orientation="vertical" >  
+        
+    <RelativeLayout android:id="@+id/OnlineTetrisActivity_userInfoPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView android:id="@+id/OnlineTetrisActivity_user_picture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/default_user"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView android:id="@+id/OnlineTetrisActivity_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/OnlineTetrisActivity_user_picture"
+            android:text="@string/default_username"
+            style="@style/DefaultText.Medium"/>
+        
+        <RatingBar android:id="@+id/OnlineTetrisActivity_user_division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/OnlineTetrisActivity_user_picture"
+            android:layout_below="@id/OnlineTetrisActivity_user_name"
+            android:rating="3"
+            style="?android:attr/ratingBarStyleSmall"/>
+        
+        <TextView android:id="@+id/OnlineTetrisActivity_timeRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="1:37"
+            android:textSize="40sp"
+            style="@style/DefaultText.Large"/>
+        
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/orange"/>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:layout_marginBottom="5dp"/>
+        
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+       	<com.ashwin.tetris.android.views.TetrisView android:id="@+id/OnlineTetrisActivity_tetrisView"
+       	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"/>
+        
+        <com.ashwin.tetris.android.views.TetrisScoreView android:id="@+id/OnlineTetrisActivity_tetrisScoreView"
+            android:layout_width="103dp"
+            android:layout_height="200dp"
+            android:background="@color/grey"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/OnlineTetrisActivity_tetrisView"
+            tetris:blockSize="10"/>
+        
+        <LinearLayout android:id="@+id/OnlineTetrisActivity_opponentTetrisView"
+            android:layout_width="103dp"
+            android:layout_height="219dp"
+            android:layout_marginLeft="3dp"
+            android:padding="3dp"
+            android:background="@color/grey_blue"
+            android:layout_below="@id/OnlineTetrisActivity_tetrisScoreView"
+            android:layout_toRightOf="@id/OnlineTetrisActivity_tetrisView"
+            android:orientation="vertical">
+		    
+		    <RelativeLayout android:id="@+id/OnlineTetrisActivity_opponentInfoPanel"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <ImageView android:id="@+id/OnlineTetrisActivity_opponent_picture"
+		            android:layout_width="25dp"
+		            android:layout_height="25dp"
+		            android:src="@drawable/default_user"
+		            android:layout_marginRight="3dp"
+		            android:layout_alignParentTop="true"
+		            android:layout_alignParentLeft="true"/>
+		        
+		        <TextView android:id="@+id/OnlineTetrisActivity_opponent_name"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentTop="true"
+		            android:layout_toRightOf="@id/OnlineTetrisActivity_opponent_picture"
+		            android:text="@string/default_username"
+		            style="@style/DefaultText.XSmall"/>
+		        
+		        <RatingBar android:id="@+id/OnlineTetrisActivity_opponent_division"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@id/OnlineTetrisActivity_opponent_picture"
+		            android:layout_below="@id/OnlineTetrisActivity_opponent_name"
+		            android:rating="3"
+		            style="?android:attr/ratingBarStyleSmall"/>
+		        
+		    </RelativeLayout>
+		    
+		    <com.ashwin.tetris.android.views.TetrisView android:id="@+id/OnlineTetrisActivity_opponentTetrisView"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        tetris:blockSize="10"
+		        tetris:isActive="false"
+		        tetris:isOnline="false"/>
+       </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

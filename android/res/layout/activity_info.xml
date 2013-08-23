@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/InfoActivity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+   
+    <RelativeLayout android:id="@+id/InfoActivity_userInfoPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView android:id="@+id/InfoActivity_user_picture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/default_user"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView android:id="@+id/InfoActivity_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/InfoActivity_user_picture"
+            android:text="@string/default_username"
+            style="@style/DefaultText.Medium"/>
+        
+        <RatingBar android:id="@+id/InfoActivity_user_division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/InfoActivity_user_picture"
+            android:layout_below="@id/InfoActivity_user_name"
+            android:rating="3"
+            style="?android:attr/ratingBarStyleSmall"/>
+        
+        <Button android:id="@+id/InfoActivity_findMatch"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="8dp"
+            android:drawableTop="@drawable/search"
+            android:background="@drawable/button_menu_selector"
+	    	android:textColor="@drawable/text_color_selector"
+            android:text="@string/find_match"
+            style="@style/DefaultText.XSmall"/>
+        
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/orange"/>
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="@color/grey">
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Recent Games"
+                android:gravity="center"
+                style="@style/DefaultText.Medium"/>
+            
+            <ListView android:id="@+id/InfoActivity_recentGames"
+	            android:layout_width="fill_parent"
+	            android:layout_height="0dp"
+	            android:layout_weight="1"
+	            android:background="@color/light_grey"/>
+           	
+        </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+        
+        <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@color/grey"
+	        android:orientation="vertical">
+	        
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Statistics"
+	            android:gravity="center"
+	            style="@style/DefaultText.Medium"/>
+	        
+	        <TableLayout
+	            android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:stretchColumns="0"
+		        android:padding="5dp"
+		        android:background="@color/light_grey">
+		        
+	            <TableRow
+	            	android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Wins"
+	                    style="@style/DefaultText.Small"/>
+	                
+	                <TextView android:id="@+id/InfoActivity_wins"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="right"
+	                    style="@style/DefaultText.Small"/>
+	                
+	            </TableRow>
+	            
+	           	<TableRow
+	            	android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Loses"
+	                    style="@style/DefaultText.Small"/>
+	                
+	                <TextView android:id="@+id/InfoActivity_loses"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="right"
+	                    style="@style/DefaultText.Small"/>
+	                
+	            </TableRow>
+	            
+	           	<TableRow
+	            	android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Total Games"
+	                    style="@style/DefaultText.Small"/>
+	                
+	                <TextView android:id="@+id/InfoActivity_totalGames"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="right"
+	                    style="@style/DefaultText.Small"/>
+	                
+	            </TableRow>
+	            
+	           	<TableRow
+	            	android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+	                
+	                <TextView
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Win Percentage"
+	                    style="@style/DefaultText.Small"/>
+	                
+	                <TextView android:id="@+id/InfoActivity_winPercentage"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:gravity="right"
+	                    style="@style/DefaultText.Small"/>
+	                
+	            </TableRow>
+	            
+	        </TableLayout>
+	    </LinearLayout>
+	    
+        <View 
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"/>
+        
+        <ImageButton android:id="@+id/InfoActivity_friends"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:background="@color/grey"
+		    android:src="@drawable/facebook" />
+         
+    </LinearLayout>
+    
+    <View
+		android:layout_height="50dp"
+		android:layout_width="fill_parent"
+		android:layout_marginTop="10dp"
+		android:background="@color/grey"/>
+    
+</LinearLayout>

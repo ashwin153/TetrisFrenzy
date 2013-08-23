@@ -1,0 +1,361 @@
+Jun 27 10:14 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jun 27 10:14 - ConnectThread@start: Server listening for connections
+Jun 27 10:14 - ConnectThread@run: Opening database connection
+Jun 27 10:14 - ThreadManager@start: Starting ThreadManager
+Jun 27 10:14 - ConnectThread@run: Database connection opening successfully
+Jun 27 10:14 - ConnectThread@run: Listening for connections
+Jun 27 10:14 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jun 27 10:14 - ConnectThread@start: Server listening for connections
+Jun 27 10:14 - ConnectThread@run: Opening database connection
+Jun 27 10:14 - ThreadManager@start: Starting ThreadManager
+Jun 27 10:14 - ConnectThread@run: Database connection opening successfully
+Jun 27 10:14 - ConnectThread@run: Listening for connections
+<b>Jun 27 10:15 - ThreadManager@constructor: ThreadManager instantiated correctly</b>
+<b>Jun 27 10:15 - ConnectThread@start: Server listening for connections</b>
+<b>Jun 27 10:15 - ConnectThread@run: Opening database connection</b>
+<b>Jun 27 10:15 - ThreadManager@start: Starting ThreadManager</b>
+<b>Jun 27 10:15 - ConnectThread@run: Database connection opening successfully</b>
+<b>Jun 27 10:15 - ConnectThread@run: Listening for connections</b>
+Jul 17 03:17 - ConnectThread@run: Opening database connection
+Jul 17 03:17 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 03:17 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 03:17 - ConnectThread@start: Server listening for connections
+Jul 17 03:17 - ThreadManager@start: Starting ThreadManager
+Jul 17 03:19 - ConnectThread@run: Opening database connection
+Jul 17 03:19 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 03:19 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 03:19 - ConnectThread@start: Server listening for connections
+Jul 17 03:19 - ThreadManager@start: Starting ThreadManager
+Jul 17 03:23 - ConnectThread@run: Opening database connection
+Jul 17 03:23 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 03:23 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 03:23 - ConnectThread@start: Server listening for connections
+Jul 17 03:23 - ThreadManager@start: Starting ThreadManager
+Jul 17 03:25 - ConnectThread@run: Opening database connection
+Jul 17 03:25 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 03:25 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 03:25 - ConnectThread@start: Server listening for connections
+Jul 17 03:25 - ThreadManager@start: Starting ThreadManager
+Jul 17 03:28 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 03:28 - ConnectThread@run: Opening database connection
+Jul 17 03:28 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 03:28 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 03:28 - ConnectThread@start: Server listening for connections
+Jul 17 03:28 - ThreadManager@start: Starting ThreadManager
+Jul 17 03:47 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 03:47 - ConnectThread@run: Opening database connection
+Jul 17 03:47 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 03:47 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 03:47 - ConnectThread@start: Server listening for connections
+Jul 17 03:47 - ThreadManager@start: Starting ThreadManager
+Jul 17 03:49 - ConnectThread@run: Client accepted, authenticating
+Jul 17 03:49 - ConnectThread@run: Client authentication timeout
+Jul 17 03:52 - ConnectThread@run: Client accepted, authenticating
+Jul 17 03:52 - ConnectThread@run: Client authentication timeout
+Jul 17 03:54 - ConnectThread@run: Client accepted, authenticating
+Jul 17 03:54 - ConnectThread@run: Client authentication timeout
+Jul 17 03:55 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 03:55 - ConnectThread@run: Opening database connection
+Jul 17 03:55 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 03:55 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 03:55 - ConnectThread@start: Server listening for connections
+Jul 17 03:55 - ThreadManager@start: Starting ThreadManager
+Jul 17 03:55 - ConnectThread@run: Client accepted, authenticating
+Jul 17 03:56 - ConnectThread@run: Client authentication timeout
+Jul 17 03:57 - ConnectThread@run: Client accepted, authenticating
+Jul 17 03:57 - ConnectThread@run: Client authentication timeout
+Jul 17 03:59 - ConnectThread@run: Client accepted, authenticating
+Jul 17 03:59 - ConnectThread@run: Client authentication timeout
+Jul 17 04:00 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:01 - ConnectThread@run: Client authentication timeout
+Jul 17 04:28 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:28 - ConnectThread@run: Opening database connection
+Jul 17 04:28 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:28 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:28 - ConnectThread@start: Server listening for connections
+Jul 17 04:28 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:29 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:30 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:30 - ConnectThread@run: Opening database connection
+Jul 17 04:30 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:30 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:30 - ConnectThread@start: Server listening for connections
+Jul 17 04:30 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:30 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:30 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:31 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:31 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:32 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:32 - ConnectThread@run: Opening database connection
+Jul 17 04:32 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:32 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:32 - ConnectThread@start: Server listening for connections
+Jul 17 04:32 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:33 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:33 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:37 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:37 - ConnectThread@run: Opening database connection
+Jul 17 04:37 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:37 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:37 - ConnectThread@start: Server listening for connections
+Jul 17 04:37 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:37 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:37 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:37 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:37 - ConnectThread@run: Opening database connection
+Jul 17 04:37 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:37 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:37 - ConnectThread@start: Server listening for connections
+Jul 17 04:37 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:37 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:37 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:38 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:38 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:38 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:38 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:39 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:39 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:43 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:43 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:48 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:48 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:52 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:52 - ConnectThread@run: Opening database connection
+Jul 17 04:52 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:52 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:52 - ConnectThread@start: Server listening for connections
+Jul 17 04:52 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:52 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:52 - AUTHENTICATE:ashwin153,tetrisf\|
+Jul 17 04:52 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:53 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:53 - ConnectThread@run: Opening database connection
+Jul 17 04:53 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:53 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:53 - ConnectThread@start: Server listening for connections
+Jul 17 04:53 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:54 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:54 - AUTHENTICATE:ashwin153,tetrisfrenzy|
+Jul 17 04:55 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:55 - ConnectThread@run: Opening database connection
+Jul 17 04:55 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:55 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:55 - ConnectThread@start: Server listening for connections
+Jul 17 04:55 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:55 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:55 - AUTHENTICATE:ashwin153,tetrisfrenzy|
+Jul 17 04:55 - AUTHENTICATE, ashwin153,tetrisfrenzy
+Jul 17 04:55 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:57 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 04:57 - ConnectThread@run: Opening database connection
+Jul 17 04:57 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 04:57 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 04:57 - ConnectThread@start: Server listening for connections
+Jul 17 04:57 - ThreadManager@start: Starting ThreadManager
+Jul 17 04:57 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:57 - AUTHENTICATE:ashwin153,tetrisfrenzy|
+Jul 17 04:57 - AUTHENTICATE:ashwin153,tetrisfrenzy
+Jul 17 04:57 - AUTHENTICATE, ashwin153,tetrisfrenzy
+Jul 17 04:57 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:58 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:58 - AUTHENTICATE:ashwin153,ashklashashnash1|
+Jul 17 04:58 - AUTHENTICATE:ashwin153,ashklashashnash1
+Jul 17 04:58 - AUTHENTICATE, ashwin153,ashklashashnash1
+Jul 17 04:58 - ConnectThread@run: Username and password do not match records.
+Jul 17 04:58 - ConnectThread@run: Client accepted, authenticating
+Jul 17 04:58 - AUTHENTICATE:ashwin153,tetrisfrenzy|
+Jul 17 04:58 - AUTHENTICATE:ashwin153,tetrisfrenzy
+Jul 17 04:58 - AUTHENTICATE, ashwin153,tetrisfrenzy
+Jul 17 04:58 - ConnectThread@run: Username and password do not match records.
+Jul 17 05:01 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 05:01 - ConnectThread@run: Opening database connection
+Jul 17 05:01 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 05:01 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 05:01 - ConnectThread@start: Server listening for connections
+Jul 17 05:01 - ThreadManager@start: Starting ThreadManager
+Jul 17 05:01 - ConnectThread@run: Client accepted, authenticating
+Jul 17 05:01 - ConnectThread@run: Username and password do not match records.
+Jul 17 05:01 - ConnectThread@run: Client accepted, authenticating
+Jul 17 05:01 - ConnectThread@run: Username and password do not match records.
+Jul 17 05:04 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 05:04 - ConnectThread@run: Opening database connection
+Jul 17 05:04 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 05:04 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 05:04 - ConnectThread@start: Server listening for connections
+Jul 17 05:04 - ThreadManager@start: Starting ThreadManager
+Jul 17 05:04 - ConnectThread@run: Client accepted, authenticating
+Jul 17 05:04 - ConnectThread@run: Username and password do not match records.
+Jul 17 05:05 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 17 05:05 - ConnectThread@run: Opening database connection
+Jul 17 05:05 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 17 05:05 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 17 05:05 - ConnectThread@start: Server listening for connections
+Jul 17 05:05 - ThreadManager@start: Starting ThreadManager
+Jul 17 05:05 - ConnectThread@run: Client accepted, authenticating
+Jul 17 05:05 - ConnectThread@run: Username and password do not match records.
+Jul 17 05:09 - ConnectThread@run: Client accepted, authenticating
+Jul 17 05:09 - ConnectThread@run: Player authentication successful
+Jul 18 09:32 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 18 09:32 - ConnectThread@run: Opening database connection
+Jul 18 09:32 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 18 09:32 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 18 09:32 - ConnectThread@start: Server listening for connections
+Jul 18 09:32 - ThreadManager@start: Starting ThreadManager
+Jul 18 09:32 - ConnectThread@run: Client accepted, authenticating
+Jul 18 09:32 - ConnectThread@run: Player authentication successful
+Jul 18 10:21 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 18 10:21 - ConnectThread@run: Opening database connection
+Jul 18 10:21 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 18 10:21 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 18 10:21 - ConnectThread@start: Server listening for connections
+Jul 18 10:21 - ThreadManager@start: Starting ThreadManager
+Jul 18 10:52 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 18 10:52 - ConnectThread@run: Opening database connection
+Jul 18 10:52 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 18 10:52 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 18 10:52 - ConnectThread@start: Server listening for connections
+Jul 18 10:52 - ThreadManager@start: Starting ThreadManager
+Jul 18 10:53 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 18 10:53 - ConnectThread@run: Opening database connection
+Jul 18 10:53 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 18 10:53 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 18 10:53 - ConnectThread@start: Server listening for connections
+Jul 18 10:53 - ThreadManager@start: Starting ThreadManager
+Jul 18 10:54 - ConnectThread@run: Client accepted, authenticating
+Jul 18 10:54 - ConnectThread@run: Player authentication successful
+Jul 18 11:34 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 18 11:34 - ConnectThread@run: Opening database connection
+Jul 18 11:34 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 18 11:34 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 18 11:34 - ConnectThread@start: Server listening for connections
+Jul 18 11:34 - ThreadManager@start: Starting ThreadManager
+Jul 18 11:34 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:34 - ConnectThread@run: Player authentication successful
+Jul 18 11:36 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:36 - ConnectThread@run: Player authentication successful
+Jul 18 11:38 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:38 - ConnectThread@run: Player authentication successful
+Jul 18 11:42 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:42 - ConnectThread@run: Player authentication successful
+Jul 18 11:43 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:43 - ConnectThread@run: Username and password do not match records.
+Jul 18 11:43 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:43 - ConnectThread@run: Username and password do not match records.
+Jul 18 11:43 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:43 - ConnectThread@run: Player authentication successful
+Jul 18 11:44 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:44 - ConnectThread@run: Player authentication successful
+Jul 18 11:50 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:50 - ConnectThread@run: Player authentication successful
+Jul 18 11:57 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:57 - ConnectThread@run: Player authentication successful
+Jul 18 11:59 - ConnectThread@run: Client accepted, authenticating
+Jul 18 11:59 - ConnectThread@run: Player authentication successful
+Jul 18 12:11 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:11 - ConnectThread@run: Player authentication successful
+Jul 18 12:14 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:14 - ConnectThread@run: Player authentication successful
+Jul 18 12:16 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:16 - ConnectThread@run: Player authentication successful
+Jul 18 12:18 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:18 - ConnectThread@run: Player authentication successful
+Jul 18 12:45 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:45 - ConnectThread@run: Player authentication successful
+Jul 18 12:46 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:46 - ConnectThread@run: Player authentication successful
+Jul 18 12:47 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:47 - ConnectThread@run: Player authentication successful
+Jul 18 12:50 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:50 - ConnectThread@run: Player authentication successful
+Jul 18 12:52 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:52 - ConnectThread@run: Player authentication successful
+Jul 18 12:55 - ConnectThread@run: Client accepted, authenticating
+Jul 18 12:55 - ConnectThread@run: Player authentication successful
+Jul 18 01:05 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:05 - ConnectThread@run: Player authentication successful
+Jul 18 01:06 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:06 - ConnectThread@run: Player authentication successful
+Jul 18 01:08 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:08 - ConnectThread@run: Player authentication successful
+Jul 18 01:12 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:12 - ConnectThread@run: Player authentication successful
+Jul 18 01:14 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:14 - ConnectThread@run: Player authentication successful
+Jul 18 01:14 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:14 - ConnectThread@run: Player authentication successful
+Jul 18 01:16 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:16 - ConnectThread@run: Player authentication successful
+Jul 18 01:20 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:20 - ConnectThread@run: Player authentication successful
+Jul 18 01:21 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:21 - ConnectThread@run: Player authentication successful
+Jul 18 01:23 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:23 - ConnectThread@run: Player authentication successful
+Jul 18 01:26 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:26 - ConnectThread@run: Player authentication successful
+Jul 18 01:30 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:30 - ConnectThread@run: Player authentication successful
+Jul 18 01:31 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:31 - ConnectThread@run: Player authentication successful
+Jul 18 01:34 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:34 - ConnectThread@run: Player authentication successful
+Jul 18 01:34 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:34 - ConnectThread@run: Player authentication successful
+Jul 18 01:35 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:35 - ConnectThread@run: Player authentication successful
+Jul 18 01:37 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:37 - ConnectThread@run: Player authentication successful
+Jul 18 01:39 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:39 - ConnectThread@run: Player authentication successful
+Jul 18 01:48 - ConnectThread@run: Client accepted, authenticating
+Jul 18 01:48 - ConnectThread@run: Player authentication successful
+Jul 18 03:25 - ConnectThread@run: Client accepted, authenticating
+Jul 18 03:25 - ConnectThread@run: Player authentication successful
+Jul 18 03:29 - ConnectThread@run: Client accepted, authenticating
+Jul 18 03:29 - ConnectThread@run: Player authentication successful
+Jul 18 03:30 - ConnectThread@run: Client accepted, authenticating
+Jul 18 03:30 - ConnectThread@run: Player authentication successful
+Jul 18 03:33 - ConnectThread@run: Client accepted, authenticating
+Jul 18 03:33 - ConnectThread@run: Player authentication successful
+Jul 18 03:37 - ConnectThread@run: Client accepted, authenticating
+Jul 18 03:37 - ConnectThread@run: Player authentication successful
+Jul 18 03:37 - ConnectThread@run: Client accepted, authenticating
+Jul 18 03:37 - ConnectThread@run: Player authentication successful
+Jul 20 02:07 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 20 02:07 - ConnectThread@run: Opening database connection
+Jul 20 02:07 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 20 02:07 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 20 02:07 - ConnectThread@start: Server listening for connections
+Jul 20 02:07 - ThreadManager@start: Starting ThreadManager
+Jul 20 02:08 - ConnectThread@run: Client accepted, authenticating
+Jul 20 02:08 - ConnectThread@run: Player authentication successful
+Jul 21 11:54 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 2237
+Jul 21 11:54 - ConnectThread@run: Opening database connection
+Jul 21 11:54 - ConnectThread@run: Database connection opening successfully, listening for connections
+Jul 21 11:54 - ThreadManager@constructor: ThreadManager instantiated correctly
+Jul 21 11:54 - ConnectThread@start: Server listening for connections
+Jul 21 11:54 - ThreadManager@start: Starting ThreadManager
+Jul 21 11:55 - ConnectThread@run: Client accepted, authenticating
+Jul 21 11:55 - ConnectThread@run: Player authentication successful
+Aug 04 12:32 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 5517
+Aug 04 12:32 - ConnectThread@run: Opening database connection
+Aug 04 12:32 - ConnectThread@run: Database connection opening successfully, listening for connections
+Aug 04 12:32 - ThreadManager@constructor: ThreadManager instantiated correctly
+Aug 04 12:32 - ConnectThread@start: Server listening for connections
+Aug 04 12:32 - ThreadManager@start: Starting ThreadManager
+Aug 04 12:35 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 5517
+Aug 04 12:35 - ConnectThread@run: Opening database connection
+Aug 04 12:35 - ConnectThread@run: Database connection opening successfully, listening for connections
+Aug 04 12:35 - ThreadManager@constructor: ThreadManager instantiated correctly
+Aug 04 12:35 - ConnectThread@start: Server listening for connections
+Aug 04 12:35 - ThreadManager@start: Starting ThreadManager
+Aug 04 12:38 - ConnectThread@run: Client accepted, authenticating
+Aug 04 12:38 - ConnectThread@run: Player authentication successful
+Aug 11 12:28 - TetrisServer@constructor: Server listening at 0.0.0.0/0.0.0.0 on 5517
+Aug 11 12:28 - ConnectThread@run: Opening database connection
+Aug 11 12:28 - ConnectThread@run: Database connection opening successfully, listening for connections
+Aug 11 12:28 - ThreadManager@constructor: ThreadManager instantiated correctly
+Aug 11 12:28 - ConnectThread@start: Server listening for connections
+Aug 11 12:28 - ThreadManager@start: Starting ThreadManager
+Aug 11 12:29 - ConnectThread@run: Client accepted, authenticating
+Aug 11 12:29 - ConnectThread@run: Player authentication successful

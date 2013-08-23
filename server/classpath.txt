@@ -1,0 +1,1 @@
+ /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -Dfile.encoding=MacRoman -classpath "/Users/ashwin/Development/workspace/Android Tetris Battle Server/bin:/Users/ashwin/Development/workspace/Android Tetris Battle Server/lib/mysql-connector-java-5.1.25-bin.jar" com.ashwin.tetris.server.TetrisServer

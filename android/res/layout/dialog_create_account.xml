@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CreateAccountDialog_layout"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical" >
+    
+	<EditText android:id="@+id/CreateAccountDialog_username"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:textColorHint="@color/black"
+	    android:inputType="text"
+	    android:hint="@string/default_username"
+	    style="@style/DefaultText.Medium"/>
+	
+	<EditText android:id="@+id/CreateAccountDialog_email"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:textColorHint="@color/black"
+	    android:inputType="text"
+	    android:hint="@string/default_email"
+	    style="@style/DefaultText.Medium"/>
+	
+	<EditText android:id="@+id/CreateAccountDialog_password"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:textColorHint="@color/black"
+	    android:inputType="text"
+	    android:hint="@string/default_password"
+	    style="@style/DefaultText.Medium"/>
+	
+	<EditText android:id="@+id/CreateAccountDialog_confirm"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:textColorHint="@color/black"
+	    android:inputType="text"
+	    android:hint="@string/confirm_password"
+	    style="@style/DefaultText.Medium"/>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <Button android:id="@+id/CreateAccountDialog_createAccount"
+	   		android:layout_width="0dp"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	   		android:background="@drawable/button_menu_selector"
+	   		android:textColor="@drawable/text_color_selector"
+	   		android:padding="7dp"
+	   		android:text="@string/create"/>
+	    
+	    <View
+	        android:layout_width="1dp"
+	        android:layout_height="1dp"/>
+	    
+	    <Button android:id="@+id/CreateAccountDialog_cancel"
+	   		android:layout_width="0dp"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	   		android:background="@drawable/button_menu_selector"
+	   		android:textColor="@drawable/text_color_selector"
+	   		android:padding="7dp"
+	   		android:text="@string/cancel"/>
+	    
+	</LinearLayout>
+	
+</LinearLayout>

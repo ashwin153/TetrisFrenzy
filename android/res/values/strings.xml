@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Tetris Frenzy</string>
+	<string name="tetris">Tetris</string>
+	<string name="frenzy">Frenzy</string>
+	<string name="login">Login</string>
+	<string name="default_username">Username</string>
+	<string name="default_password">Password</string>
+	<string name="default_email">Email</string>
+	<string name="create_account">Create Account</string>
+	<string name="create_account_info">Not a member? Join now! </string>
+	<string name="remember_me">Remember Me</string>
+	<string name="find_match">Find Match</string>
+	<string name="play_offline">Play Offline</string>
+	<string name="version">Version: 1.0</string>
+	<string name="cancel">Cancel</string>
+	<string name="confirm_password">Confirm Password</string>
+	<string name="create">Create</string>
+	<string name="info">Info</string>
+	
+</resources>

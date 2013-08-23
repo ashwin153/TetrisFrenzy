@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="blockSize" format="float"/>
+    
+    <declare-styleable name="TetrisView">
+        <attr name="blockSize"/>
+        <attr name="clickRadius" format="float"/>
+        <attr name="border" format="float"/>
+        <attr name="isActive" format="boolean"/>
+        <attr name="isOnline" format="boolean"/>
+        <attr name="swipeLength" format="float"/>
+        <attr name="swipeVelocity" format="float"/>
+    </declare-styleable>
+    
+    <declare-styleable name="TetrisScoreView">
+        <attr name="blockSize"/>
+        <attr name="textSize" format="float"/>
+    </declare-styleable>
+    
+</resources>

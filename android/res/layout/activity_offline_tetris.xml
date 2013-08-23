@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tetris="http://schemas.android.com/apk/res-auto"
+    
+    android:id="@+id/OfflineTetrisActivity_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+ 	android:orientation="vertical">
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+    
+	    <TextView android:id="@+id/LoginActivity_logo1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tetris"
+	        style="@style/DefaultText.XLarge"/>
+	    
+	    <View
+	        android:layout_width="5dp"
+	        android:layout_height="1dp" />
+	    
+	    <TextView android:id="@+id/LoginActivity_logo2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/orange"
+	        android:text="@string/frenzy"
+	        style="@style/DefaultText.XLarge"/>
+	    
+	</LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/orange"/>
+        
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <com.ashwin.tetris.android.views.TetrisScoreView
+	        android:id="@+id/OfflineTetrisActivity_TetrisScoreView"
+	        android:layout_width="100dp"
+	        android:layout_height="422dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        tetris:blockSize="18"
+	        tetris:textSize="16"/>
+	        
+	    <com.ashwin.tetris.android.views.TetrisView 
+	        android:id="@+id/OfflineTetrisActivity_TetrisView"
+	        android:layout_width="212dp"
+	        android:layout_height="422dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        tetris:blockSize="21"
+	        tetris:isOnline="false"/>
+	</RelativeLayout>
+	
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_marginTop="15dp"
+	    android:background="@color/black"/>
+</LinearLayout>

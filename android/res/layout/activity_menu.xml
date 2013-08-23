@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MenuActivity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+	<ImageView android:id="@+id/MenuActivity_logo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/logo"/>
+	
+	<Button android:id="@+id/MenuActivity_playOffline"
+	    android:layout_width="150dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/play_offline"
+	    android:background="@drawable/button_menu_selector"
+	    android:textColor="@drawable/text_color_selector"
+	    android:padding="10dp"
+	    android:layout_marginTop="25dp"
+	    android:layout_marginBottom="10dp"
+	    android:onClick="onPlayOffline"
+	    style="@style/DefaultText.Medium"/>
+	
+	<Button android:id="@+id/MenuActivity_login"
+	    android:layout_width="150dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/login"
+	    android:background="@drawable/button_menu_selector"
+	    android:textColor="@drawable/text_color_selector"
+	    android:padding="10dp"
+	    android:onClick="onLogin"
+	    style="@style/DefaultText.Medium"/>
+	
+	<TextView android:id="@+id/MenuActivity_revision"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="25dp"
+	    android:text="@string/version"
+	    style="DefaultText.Small"/>
+	
+</LinearLayout>
