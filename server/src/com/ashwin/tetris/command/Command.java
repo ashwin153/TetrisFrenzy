@@ -21,9 +21,10 @@ public enum Command {
 	BEGIN,							// Client should begin playing game
 	DISCONNECT,						// Server should send command to other player
 	LOSE,							// Server should send win command to other player
+	BLOCKS,							// Server should send block list to other player
 	LINE,							// Server should send lines to other player
 	WIN,							// Client should display win procedure
-	
+
 	// Global Commands
 	MSG,							// Server should send message to other player
 	PLAYER_DATA;					// Server should return: PLAYER_DATA:PlayerData

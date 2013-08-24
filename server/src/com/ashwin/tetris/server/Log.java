@@ -7,10 +7,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Log {
-	
-	private static final String FILE_NAME = "server.log";
-	private static final String FILE_PATH = "/Users/ashwin/Development/workspace/Android Tetris Battle Server/";
-	
 	private static SimpleDateFormat _dateFormat = new SimpleDateFormat("MMM dd hh:mm - ");
 	private static PrintWriter _writer;
 	
@@ -18,9 +14,9 @@ public class Log {
 		return _writer == null;
 	}
 	
-	public static void setup() {
+	public static void setup(String fileName, String filePath) {
 		try {
-			_writer = new PrintWriter(new FileOutputStream(new File(FILE_PATH + FILE_NAME), true));
+			_writer = new PrintWriter(new FileOutputStream(new File(fileName + filePath), true));
 		} catch(Exception e) {
 			System.out.println("Log@setup: Unable to create log file - " + e.toString());
 		}
@@ -31,8 +27,6 @@ public class Log {
 			_writer.println(_dateFormat.format(new Date(System.currentTimeMillis())) + str);
 			_writer.flush();
 		}
-		
-		System.out.println(str);
 	}
 	
 	public static void close() {

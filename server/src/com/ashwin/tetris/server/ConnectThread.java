@@ -40,7 +40,7 @@ public class ConnectThread extends Thread {
 		
 		Log.write("ConnectThread@run: Opening database connection");
 		_connection = DBConnect.openConnection();
-		_authStatement = _connection.prepareStatement("select auth.username, auth.uid, user.wins, user.loses, user.rid, " +
+		_authStatement = _connection.prepareStatement("select auth.username, auth.uid, user.wins, user.loses, user.rank, " +
 				"user.division from auth join user on auth.uid=user.uid where auth.username=? and auth.password=?");
 		_createAuthStatement = _connection.prepareStatement("insert into auth (username, password, email) values (?, ?, ?)");
 		_createUserStatement = _connection.prepareStatement("insert into user(wins, loses, rid, division) values (0, 0, 1, 2)");

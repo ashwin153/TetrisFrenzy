@@ -29,7 +29,7 @@ public class ThreadManager extends Thread {
 	public ThreadManager(List<Player> players) throws SQLException, ClassNotFoundException {
 		_players = players;
 		_connection = DBConnect.openConnection();
-		_updatePlayerStatement = _connection.prepareStatement("update user set wins=?, loses=?, rid=?, division=? where uid=?");
+		_updatePlayerStatement = _connection.prepareStatement("update user set wins=?, loses=?, rank=?, division=? where uid=?");
 		_matchmakingQuene = Collections.synchronizedList(new ArrayList<Player>());
 		_matchmakingThread = new MatchmakingThread(_matchmakingQuene);
 		Log.write("ThreadManager@constructor: ThreadManager instantiated correctly");
